@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# VideoBuzz
+Simple Youtube clone built on top of React JS using Youtube Data API. 
 
-## Available Scripts
+# Functioning
+Type video name/category in search bar and get 5 video recommendation in that category.
 
-In the project directory, you can run:
 
-### `npm start`
+Tiles on top of the screen for major  categories like comedy,sports,new ,music etc.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+CLick on the video for playing it.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Caveats
+Youtube API has a limit on api hits per day.So, It may be possible that the vidoes won't show on your input.
+   
+   Two ways to solve it:
+    1: Wait for a day.
+    2: Generate your own API key.
+   
+# Cloning and Generating the API key
+1 : Clone the repo and change the name of the project to be unique. Go to Google Developer Console and generate new project.
+2: Under the section of API's, choose "youtube data api v3" and activate it.
+3: Fill in basic details like name of the app,usage type etc and generate the key.
 
-### `npm test`
+After generation of the key, go to src/api/youtube.js file and change the key to yours and start working on your take of project :)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Images :
+![alt text](https://github.com/saksham1998/React-Videos/blob/master/images/image1.png)
 
-### `npm run build`
+![alt text](https://github.com/saksham1998/React-Videos/blob/master/images/image2.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Version
+This is a very basic version. Upcoming versions may include comments of the videos,homepage,better UI etc.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Recommendation
+Have any recommendation.Always open for healty conversation/criticism. Mail me at **sakshammanocha14@gmail.com**
